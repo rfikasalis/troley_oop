@@ -30,4 +30,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       run: mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=rfikasalis -Dsonar.projectKey=rfikasalis_troley_oop
 
+
+
       
