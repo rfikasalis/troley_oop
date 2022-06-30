@@ -29,5 +29,6 @@ public class User {
         setUserid(user);
         setPassword(password);
         setstatuslogin(login);
+        setstatuslogin(login);
     }
 }
